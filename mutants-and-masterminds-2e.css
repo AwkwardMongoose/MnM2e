@@ -1,4 +1,3 @@
-
 .sheet-section-skills,
 .sheet-section-feats,
 .sheet-section-powers,
@@ -24,8 +23,27 @@ img {
     width: 205px;
 }
 textarea {
-	margin-bottom: 1px;
-    
+	margin-bottom: 1px;   
+}
+.sheet-desc{
+    width: 810px;
+    min-height: 90px;
+    resize: vertical;
+    margin-bottom: 1px;
+    height: min-content;
+    min-height: 50px;
+    max-height: 200px;
+    min-width: 810px;
+    max-width: 810px;
+}
+.feat-desc{
+    width: 810px;
+    height: 30px;
+    resize: vertical;
+    margin-bottom: 1px;
+    max-height: 200px;
+    min-width: 550px;
+    max-width: 550px;
 }
 .sheet-section-skills table{
 	text-align: center;
@@ -61,12 +79,13 @@ input.sheet-tab {
     width: 110px;
     height: 24px;
     position: relative;
-    top: 8px;
+    top: 1px;
     left: 2px;
     margin: 1px;
     cursor: pointer;
 	opacity: 0;
     z-index: 9999;
+    border: none;
 }
 span.sheet-tab {
 	text-align: center;
@@ -76,7 +95,7 @@ span.sheet-tab {
 	color: black;
 	font-weight: bold;
 	width: 110px;
-	height: 20px;
+	height: 14px;
 	position: relative;
     margin-left: -116px;
 	margin-top: 4px;
